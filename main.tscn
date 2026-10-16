@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dxhwu64thc78k"]
+
+[ext_resource type="Texture2D" uid="uid://bsnfwr7r10jjw" path="res://kirby-png-1200x1148_54639928_transparent_2020b5.png.png" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://bpjvxbqrr8bb1" path="res://icon.gd" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://bjbx4uqw0bfhf" path="res://500px-KRBaY_Castle_Dedede.png" id="2_h2yge"]
+
+[node name="Node2D" type="Node2D" unique_id=1284720380]
+
+[node name="Kirby" type="Sprite2D" parent="." unique_id=496163634]
+z_index = 1
+position = Vector2(246.00003, 504.99997)
+scale = Vector2(0.11864406, 0.115952745)
+texture = ExtResource("1_0xm2m")
+script = ExtResource("2_0xm2m")
+
+[node name="Castle Dedede" type="Sprite2D" parent="." unique_id=1263282590]
+position = Vector2(577, 334)
+scale = Vector2(2.3070002, 1.7700001)
+texture = ExtResource("2_h2yge")
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=155520299]
+offset_right = 277.0
+offset_bottom = 38.0
+text = "TO MOVE USE THE ARROW KEYS :)"
